@@ -140,7 +140,22 @@ Every mistake we've made and what to do instead. This is the most important lear
 
 **Symptom:** Kling fumbles the word "orange" in the CTA.
 
-**Fix:** Spell phonetically as `OR-anj` in both the speaker tag AND the dialogue text. The user sees "orange" in the captions/on-screen text.
+**WRONG fix (do not repeat):** Spell phonetically as `orange` in the dialogue. Kling reads the dash literally and produces "OR-ange" with an audible robotic pause. This is WORSE than the original mispronunciation.
+
+**Correct fix:** Write `orange` plainly. Reinforce with `crisp clear English with clear natural pronunciation of common words` in the speaker tag. If the word still consistently fumbles in output, REPLACE the word entirely with "cart icon below" or "tap the cart below" — never respell.
+
+### V6.1 — "Described part of product not visible in reference"
+
+**Symptom:** Generated video describes or shows a feature on the back, side, top, or inside of the product that isn't visible in the reference image.
+
+**Lived examples:**
+- Office chair script said "hidden footrest" — footrest mechanism not visible from the front-only reference
+- Bassinet generated with canopy — main reference image had no canopy attached
+- Litter box generated with lid — main reference shows open-top semi-enclosed, no lid
+
+**Cause:** Filled in features from the listing title or from guessing what "products like this usually have."
+
+**Fix:** Only describe in dialogue and show in image what is **visible in the main reference image** provided. If the listing title mentions a feature not visible in the image, describe it verbally in the script (it's a verifiable spec) but **do not include it in the visual image prompt**. If a feature needs to be shown but isn't visible in any reference image, **ask the user for a reference angle that shows it** before generating.
 
 ---
 

@@ -140,7 +140,7 @@ Script accuracy check:
 - Every claim verified
 - No medical/health language
 - No competitor brand names
-- CTA = "click the OR-anj cart below"
+- CTA = "click the orange cart below"
 - ~42 words
 
 ---

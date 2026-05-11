@@ -171,3 +171,37 @@ Action: Change "hidden footrest" to "retractable footrest" or just "footrest."
 - When in deeper doubt, ask for more reference angles.
 - Never invent features.
 - Never make health, medical, or whole-room utility claims.
+
+---
+
+## Only describe parts of the product that are visible in the reference
+
+Critical rule added after repeated failures:
+
+**If the reference image only shows the FRONT of the product, the generated image must only show the FRONT. Do not generate or describe the back, side, top, inside, or interior unless those are also visible in a reference image.**
+
+Lived examples of this failure:
+- Office chair: reference showed front view only — I claimed "hidden footrest" (back-of-chair feature). Verifiably wrong because the footrest isn't visible from front.
+- Bassinet: reference main shot showed no canopy — I described "arched canopy frame" because the carousel had a canopy. The MAIN reference image determines what's shown.
+- Cat litter box: reference showed semi-enclosed open-top — I described "lid with oval entry hole" because the title said "with lid." Title was misleading; the main image is the ground truth.
+
+**The rule:**
+- The **main hero image** of a product listing is the ground truth
+- Other carousel images can be informational but don't override the main image
+- Listing TITLE specs are claimable in dialogue but not visualizable in image unless verifiable
+- If a feature is mentioned in the title but not visible in any reference image you have, **ASK for a reference angle showing it** before claiming it visually or verbally
+
+**Decision flow:**
+
+```
+For each product feature:
+
+  Is it visible in the main reference image?
+  ├── YES → Safe to show in generated image + describe in script
+  │
+  └── NO  → Is it in another reference angle the user provided?
+            ├── YES → Safe to describe in script, may show in image
+            └── NO  → Is it stated in the listing title?
+                      ├── YES → Safe to describe in script (verbally), DO NOT show in image
+                      └── NO  → DO NOT USE
+```

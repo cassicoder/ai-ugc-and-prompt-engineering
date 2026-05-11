@@ -24,12 +24,12 @@ TikTok Shop content is structured into three funnel stages, each with its own le
 ```
 [HOOK — scroll-stopping open]. [PROBLEM or IDENTITY anchor — 1 sentence].
 [3 SPECIFIC FEATURES, comma-separated]. [GENUINE REACTION].
-Huge sale right now, click the OR-anj cart below.
+Huge sale right now, click the orange cart below.
 ```
 
 **Worked example (Adirondack chair):**
 
-> "Okay STOP — y'all need to see this chair right now. It folds, it's real acacia wood, and it holds like four hundred pounds. I've been looking for one for my patio for months and finally found it. Huge sale right now, click the OR-anj cart below before they sell out."
+> "Okay STOP — y'all need to see this chair right now. It folds, it's real acacia wood, and it holds like four hundred pounds. I've been looking for one for my patio for months and finally found it. Huge sale right now, click the orange cart below before they sell out."
 
 ---
 

@@ -7,7 +7,7 @@ Worked examples — successful patterns and failure modes.
 ## Example 1 — Yaheetech Adirondack Folding Chair (worked)
 
 ```
-First-person POV, vertical 9:16, the camera is the creator's eyes on a sunlit backyard patio. A man's right arm extends forward from the bottom-right of the frame, hand resting on the wide armrest of an Adirondack folding chair. Bare forearm, white short-sleeve t-shirt edge at the shoulder. Setting: worn patio, beige doormat, terracotta pot, iced tea glass. Multi-shot enabled. Shot 1 (0-5s): wide on the chair, hand taps the armrest twice, ending hand flat on the armrest. Shot 2 (5-10s): close on the wood grain of the seat slats, hand sliding along the curved back, ending fingers on the top slat. Shot 3 (10-15s): pull back wide, hand back on the armrest, ending at start framing. As the hand moves, the late afternoon light shifts across the wood grain. Audio: [Speaker: young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as OR-anj not ornage, natural inflection, not flat, not salesy] (0-15s, continuous, no pauses, starts at frame 1): "Okay STOP — y'all need to see this chair right now. It folds, it's real acacia wood, and it holds like four hundred pounds. I've been looking for one for my patio for months and finally found it. Huge sale right now, click the OR-anj cart below before they sell out." Real person, real room, real phone — casual amateur capture, no professional lighting, no beauty filter, no glamour.
+First-person POV, vertical 9:16, the camera is the creator's eyes on a sunlit backyard patio. A man's right arm extends forward from the bottom-right of the frame, hand resting on the wide armrest of an Adirondack folding chair. Bare forearm, white short-sleeve t-shirt edge at the shoulder. Setting: worn patio, beige doormat, terracotta pot, iced tea glass. Multi-shot enabled. Shot 1 (0-5s): wide on the chair, hand taps the armrest twice, ending hand flat on the armrest. Shot 2 (5-10s): close on the wood grain of the seat slats, hand sliding along the curved back, ending fingers on the top slat. Shot 3 (10-15s): pull back wide, hand back on the armrest, ending at start framing. As the hand moves, the late afternoon light shifts across the wood grain. Audio: [Speaker: young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as orange not ornage, natural inflection, not flat, not salesy] (0-15s, continuous, no pauses, starts at frame 1): "Okay STOP — y'all need to see this chair right now. It folds, it's real acacia wood, and it holds like four hundred pounds. I've been looking for one for my patio for months and finally found it. Huge sale right now, click the orange cart below before they sell out." Real person, real room, real phone — casual amateur capture, no professional lighting, no beauty filter, no glamour.
 ```
 
 **Why it worked:**
@@ -33,7 +33,7 @@ First-person POV, vertical 9:16, the camera is the creator's eyes on a sunlit ba
 
 **Compliant rewrite:**
 
-> "I cannot stop using this little thing on my teeth. Five modes, LED light, totally waterproof, USB-C charging. It's just nice to have something that makes my teeth feel cleaner. Huge sale right now, click the OR-anj cart below."
+> "I cannot stop using this little thing on my teeth. Five modes, LED light, totally waterproof, USB-C charging. It's just nice to have something that makes my teeth feel cleaner. Huge sale right now, click the orange cart below."
 
 **Changes:**
 - Removed medical efficacy claims
@@ -95,7 +95,7 @@ At 32 words, Kling has 5 seconds of extra duration to fill → repeats lines.
 **Fix:**
 Stretch to ~42 words:
 
-> "Yo whoever priced this fireplace TV stand needs a raise. Real wood top, sixteen LED color options underneath, fireplace insert that actually heats up the whole room. Genuinely obsessed. Huge sale right now, click the OR-anj cart below if you want it."
+> "Yo whoever priced this fireplace TV stand needs a raise. Real wood top, sixteen LED color options underneath, fireplace insert that actually heats up the whole room. Genuinely obsessed. Huge sale right now, click the orange cart below if you want it."
 
 42 words = ~14.5 seconds spoken at natural pace = no room to repeat.
 
@@ -126,7 +126,7 @@ Before submitting a Kling prompt, run this mental check:
 6. Is the realism phrase present? → "As the hand moves, the light shifts across the [surface]"
 7. Is the speaker tag complete with all 9 anchor tokens? → voice rule
 8. Is the timing tag `(0-15s, continuous, no pauses, starts at frame 1)`? → frame-1 rule
-9. Is ORANGE spelled `OR-anj`? → pronunciation rule
+9. Is ORANGE spelled `orange`? → pronunciation rule
 10. Is the closer present? → "Real person, real room, real phone — ..."
 
 If any answer is no, fix before firing.

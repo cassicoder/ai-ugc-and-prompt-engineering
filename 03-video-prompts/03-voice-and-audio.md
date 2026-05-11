@@ -9,7 +9,7 @@ The locked voice persona for Isaac's TikTok Shop UGC, plus all known Kling 3.0 a
 Always use this exact construction in the `[Speaker:]` tag:
 
 ```
-Speaker: young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as OR-anj not ornage, natural inflection, not flat, not robotic, not salesy
+Speaker: young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English with clear natural pronunciation of common words, natural inflection, not flat, not robotic, not salesy
 ```
 
 Each token is doing work:
@@ -20,25 +20,35 @@ Each token is doing work:
 | `warm expressive gay-best-friend voice` | Drives expressive emotional range |
 | `animated and excited like he's telling his girl about a find` | Drives natural enthusiasm without forced hype |
 | `light theatrical lilt` | Adds rhythm and inflection variety |
-| `crisp clear English` | Pronunciation guard |
-| `pronounces ORANGE clearly as OR-anj not ornage` | Specific guard against the "ornage" mispronunciation |
+| `crisp clear English with clear natural pronunciation of common words` | Pronunciation guard without spelling words phonetically |
 | `natural inflection, not flat, not robotic, not salesy` | Three negation guards |
+
+### ⚠️ DO NOT spell ORANGE phonetically
+
+A previous version of this guide instructed writing `orange` in dialogue and the speaker tag to prevent the "ornage" mispronunciation. **This backfired.** Kling literally read the dash and pronounced it "OR-ange" with an audible break, sounding robotic.
+
+**Correct approach going forward:**
+- Write `orange` in dialogue exactly as the audience reads it
+- Do NOT put a phonetic respelling in the dialogue
+- Do NOT put a phonetic respelling in the speaker tag
+- Trust the model's default pronunciation, and reinforce with `crisp clear English with clear natural pronunciation of common words`
+- If a specific word actually fumbles in output, REPLACE that word, don't respell it
 
 ---
 
 ## Pronunciation traps (verified problems)
 
-Words Kling 3.0 specifically fumbles. Either spell phonetically in the speaker tag OR avoid using them in dialogue.
+Words Kling 3.0 specifically fumbles. Solution: REPLACE the word, do not respell phonetically. Phonetic respellings get read literally as dashes and break the audio.
 
 | Word | Problem | Solution |
 |---|---|---|
-| Orange | "Ornage" | Spell as `OR-anj` in dialogue + speaker tag note |
+| Orange | Sometimes pronounced "ornage" | Use as-is — trust the model. If consistently fumbled, replace with "cart icon below" / "tap the cart below" |
 | Pinterest | "Pintrest" | Don't use; replace with "online" |
 | HomeGoods | "HomGoods" | Don't use; replace with "the home store" |
 | Wayfair | "Wahfair" | Don't use |
 | Bedrooms | "Bedrums" sometimes | Use "bedroom" singular when possible |
 
-Generally: **avoid compound brand names** in dialogue.
+Generally: **avoid compound brand names** in dialogue. **Never respell words phonetically inside dialogue or speaker tags — Kling reads the dash literally.**
 
 ---
 
@@ -65,14 +75,17 @@ Always include in the speaker tag:
 ### CTA — every script ends with
 
 ```
-Huge sale right now, click the OR-anj cart below.
+Huge sale right now, click the orange cart below.
 ```
 
 or variations:
-- "Huge sale, click the OR-anj cart below if you want it."
-- "Click the OR-anj cart below before it's gone."
+- "Huge sale, click the orange cart below if you want it."
+- "Click the orange cart below before it's gone."
+- "Tap the cart below" (alternate if "orange" fumbles)
 
-The phonetic spelling `OR-anj` makes Kling pronounce it correctly. The user sees "orange" in the on-screen text and caption.
+Write `orange` plainly. NEVER spell it `orange` — Kling reads the dash literally and produces robotic-sounding "OR-ange" with an audible pause.
+
+The user sees "orange" in the on-screen text and caption.
 
 ---
 

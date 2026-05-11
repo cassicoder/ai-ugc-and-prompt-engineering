@@ -127,7 +127,7 @@ Example with Adirondack chair:
 |---|---|---|
 | 0-5s | Wide reveal | "Okay STOP — y'all need to see this chair right now." |
 | 5-10s | Close on wood grain | "It folds, it's real acacia wood, and it holds like four hundred pounds." |
-| 10-15s | Pull back | "I've been looking for one for my patio for months and finally found it. Huge sale right now, click the OR-anj cart below." |
+| 10-15s | Pull back | "I've been looking for one for my patio for months and finally found it. Huge sale right now, click the orange cart below." |
 
 ---
 
@@ -166,6 +166,6 @@ Before firing a Kling generation, verify:
 - [ ] The "As the hand moves, the light shifts" realism phrase is included
 - [ ] Speaker tag includes voice description + (0-15s, continuous, no pauses, starts at frame 1)
 - [ ] Dialogue is ~40 words
-- [ ] CTA is "click the OR-anj cart below"
+- [ ] CTA is "click the orange cart below"
 - [ ] No banned phrases
 - [ ] Locked closer at end

@@ -85,7 +85,7 @@ The user controls the spend. You propose, they approve.
 
 When generating Kling audio for the creator character:
 
-> Young American male, mid-twenties, warm expressive gay-best-friend voice, light theatrical lilt, animated and excited like he's telling his girl about a find, crisp clear English, natural inflection, not flat, not robotic, not salesy. Pronounces ORANGE clearly as OR-anj.
+> Young American male, mid-twenties, warm expressive gay-best-friend voice, light theatrical lilt, animated and excited like he's telling his girl about a find, crisp clear English, natural inflection, not flat, not robotic, not salesy. Pronounces ORANGE clearly as orange.
 
 This is the locked voice persona. Do not deviate unless instructed.
 

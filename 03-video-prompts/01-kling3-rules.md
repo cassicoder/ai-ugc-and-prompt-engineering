@@ -115,7 +115,7 @@ Audio: [Speaker: <voice description>] (0-15s, continuous, no pauses, starts at f
 **The locked voice description:**
 
 ```
-young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as OR-anj not ornage, natural inflection, not flat, not robotic, not salesy
+young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as orange not ornage, natural inflection, not flat, not robotic, not salesy
 ```
 
 **Why every part of this matters:**
@@ -124,7 +124,7 @@ young American male mid-twenties, warm expressive gay-best-friend voice, animate
 - "animated and excited like he's telling his girl about a find" — drives natural enthusiasm
 - "light theatrical lilt" — controlled, not over-the-top
 - "crisp clear English" — pronunciation guard
-- "pronounces ORANGE clearly as OR-anj not ornage" — Kling specifically fumbles "orange"
+- "pronounces ORANGE clearly as orange not ornage" — Kling specifically fumbles "orange"
 - "natural inflection, not flat, not robotic, not salesy" — three negation guards
 
 ---
@@ -134,10 +134,10 @@ young American male mid-twenties, warm expressive gay-best-friend voice, animate
 - **Length:** ~40 words to fill 15 seconds without repeating
 - **Timing tag:** Always `(0-15s, continuous, no pauses, starts at frame 1)` — frame-1 start prevents the dead-air opening
 - **Pronunciation traps:** spell phonetically in the speaker tag
-  - ORANGE → OR-anj
+  - ORANGE → orange
   - Pinterest → don't use (Kling mispronounces "Pintrest")
   - Compound brand names (HomeGoods, BestBuy) → replace with generic equivalent ("the home store")
-- **CTA:** Always end with "click the orange cart below" (or "click the OR-anj cart below" if pronunciation guard active)
+- **CTA:** Always end with "click the orange cart below" (or "click the orange cart below" if pronunciation guard active)
 
 ---
 
@@ -170,7 +170,7 @@ Real person, real room, real phone — casual amateur capture, no professional l
 ## Full prompt template (copy this)
 
 ```
-First-person POV, vertical 9:16, the camera is the creator's eyes looking [direction] at [product] in [setting]. A man's right arm extends forward from the bottom-right, hand resting [verb] the [specific part] at [waist/chest] height. [ARM CLOTHING]. Setting: [item 1], [item 2], [item 3]. Multi-shot enabled. Shot 1 (0-5s): [wide on full product, hand on X, ending fingers tapping Y once]. Shot 2 (5-10s): [close on Z, hand sliding to W, ending fingers on V]. Shot 3 (10-15s): [pull back wide, hand back on X, ending at start framing]. As the hand moves, the [light source] shifts across the [surface]. Audio: [Speaker: young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as OR-anj not ornage, natural inflection] (0-15s, continuous, no pauses, starts at frame 1): "[HOOK]. [FEATURE LINE]. [FEATURE LINE]. Huge sale right now, click the OR-anj cart below." Real person, real room, real phone — casual amateur capture, no professional lighting, no beauty filter, no glamour.
+First-person POV, vertical 9:16, the camera is the creator's eyes looking [direction] at [product] in [setting]. A man's right arm extends forward from the bottom-right, hand resting [verb] the [specific part] at [waist/chest] height. [ARM CLOTHING]. Setting: [item 1], [item 2], [item 3]. Multi-shot enabled. Shot 1 (0-5s): [wide on full product, hand on X, ending fingers tapping Y once]. Shot 2 (5-10s): [close on Z, hand sliding to W, ending fingers on V]. Shot 3 (10-15s): [pull back wide, hand back on X, ending at start framing]. As the hand moves, the [light source] shifts across the [surface]. Audio: [Speaker: young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, pronounces ORANGE clearly as orange not ornage, natural inflection] (0-15s, continuous, no pauses, starts at frame 1): "[HOOK]. [FEATURE LINE]. [FEATURE LINE]. Huge sale right now, click the orange cart below." Real person, real room, real phone — casual amateur capture, no professional lighting, no beauty filter, no glamour.
 ```
 
 ---
