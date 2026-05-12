@@ -1,0 +1,5 @@
+# Outputs from workflows/verify_compare.py
+compare/
+*.pyc
+__pycache__/
+.DS_Store

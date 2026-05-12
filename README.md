@@ -1,50 +1,51 @@
 # AI UGC & Prompt Engineering
 
-A portable knowledge base for generating high-quality, indistinguishable-from-real AI UGC video and image content. Built for TikTok Shop affiliate work, but the principles apply anywhere AI-generated UGC is shipped at scale.
+Knowledge base for producing AI-generated UGC videos for TikTok Shop affiliate. The bar is **indistinguishable from a real iPhone video**.
 
-This repo is designed to be read **cold** by any LLM agent (Claude, GPT, Gemini, Grok, etc.) and used as a system reference. If you're an AI reading this for the first time, start at `00-AGENT-INSTRUCTIONS.md`.
+If you are an AI agent picking this up, the entire repo fits in 5 files. Read them in order.
 
----
+## The 5 files
 
-## What this repo covers
+1. **[`workflows/image-accuracy-v1.md`](workflows/image-accuracy-v1.md)** — the 3-step workflow that makes generated product images match the reference 100%. Read first. Built after empirical testing on a 21-product batch.
+2. **[`image-prompts.md`](image-prompts.md)** — the locked template for Nano Banana image prompts. Skeleton, realism tokens, banned phrases, fully-worked examples.
+3. **[`video-prompts.md`](video-prompts.md)** — the locked template for Kling 3.0 video prompts. Multi-shot structure, voice persona, audio rules, examples.
+4. **[`scripts.md`](scripts.md)** — TikTok Shop scripting: TOF / MOF / BOF, hook frameworks, storytelling + consumer psychology, compliance.
+5. **[`failure-modes.md`](failure-modes.md)** — every mistake already lived through. Read before assuming a thing will work.
 
-- **Image generation** with Higgsfield (Nano Banana 2) — accuracy-first product image protocols
-- **Video generation** with Kling 3.0 — multi-shot, audio-baked, no-artifact patterns
-- **Script writing** for TikTok Shop UGC — TOF/MOF/BOF rules, hook frameworks, compliance
-- **Realism protocol** — the specific tells that make AI-generated UGC look like AI vs. real phone footage
-- **Accuracy protocol** — the non-negotiable rule for matching product reference images
-- **Common failure modes** — every mistake we've made, why it failed, what to do instead
+## The two non-negotiable rules
 
----
+1. **100% product accuracy.** The product in the generated image must match the reference image exactly in color, silhouette, texture, and visible features. If you can't verify a feature, leave it out. See `workflows/image-accuracy-v1.md` for the workflow that produces this.
+2. **Wait for explicit approval before firing a generation.** Propose the prompt + settings, wait for "fire," only then call the generation tool. The user controls the spend.
 
-## Repo structure
+## The pipeline
 
 ```
-00-AGENT-INSTRUCTIONS.md          ← Read this first if you're an LLM
-01-accuracy-protocol.md           ← The 100% rule (most important)
-02-image-prompts/
-  ├── 01-rules.md
-  ├── 02-realism-tokens.md
-  ├── 03-banned-phrases.md
-  └── 04-examples.md
-03-video-prompts/
-  ├── 01-kling3-rules.md
-  ├── 02-multi-shot-structure.md
-  ├── 03-voice-and-audio.md
-  └── 04-examples.md
-04-scripts/
-  ├── 01-tof-mof-bof.md
-  ├── 02-hook-frameworks.md
-  ├── 03-compliance.md
-  ├── 04-examples.md
-  └── 05-storytelling-and-psychology.md   ← MANDATORY: every script needs a story
-05-realism-protocol.md             ← Why generated UGC looks fake + how to fix
-06-failure-modes.md                ← Every mistake we've made
-07-pipeline.md                     ← Full image → video → publish pipeline
+1. Pick product (user-driven, never agent-pick unless asked)
+2. View reference image directly
+3. Build spec card + ambiguity audit (workflows/image-accuracy-v1.md)
+4. Write image prompt from template (image-prompts.md)
+5. Get approval → fire → verify against reference
+6. Write video prompt (video-prompts.md)
+7. Get approval → fire → verify
+8. Write on-screen text + caption (scripts.md)
+9. Compliance check (scripts.md § Compliance)
+10. Ship
 ```
 
----
+## The voice
 
-## Owner
+```
+Young American male mid-twenties, warm expressive gay-best-friend voice, animated and excited like he's telling his girl about a find, light theatrical lilt, crisp clear English, natural inflection, not flat, not robotic, not salesy.
+```
 
-Isaac Cassi · cassicoder · TikTok Shop affiliate work · 2026
+Locked. Do not deviate.
+
+## The closer (locked, every image and video prompt ends with this)
+
+```
+Real person, real room, real phone — casual amateur capture, no professional lighting, no beauty filter, no glamour.
+```
+
+## Archive
+
+The previous 12-file structure lives in `_archive/`. Same content, more redundancy. Keep for reference; don't read for working.
