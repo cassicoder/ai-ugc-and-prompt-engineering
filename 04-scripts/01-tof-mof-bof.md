@@ -21,15 +21,19 @@ TikTok Shop content is structured into three funnel stages, each with its own le
 
 **The TOF script template (15s, ~42 words):**
 
+Every TOF script MUST include a mini-story tied to a trigger person + pain + outcome. See `05-storytelling-and-psychology.md` for the full framework.
+
 ```
-[HOOK — scroll-stopping open]. [PROBLEM or IDENTITY anchor — 1 sentence].
-[3 SPECIFIC FEATURES, comma-separated]. [GENUINE REACTION].
+[HOOK + trigger person — who has the problem].
+[Their specific pain or limitation].
+[Product reveal + 3 features].
+[Outcome the product created — not the feature].
 Huge sale right now, click the orange cart below.
 ```
 
-**Worked example (Adirondack chair):**
+**Worked example (Adirondack chair — story-driven):**
 
-> "Okay STOP — y'all need to see this chair right now. It folds, it's real acacia wood, and it holds like four hundred pounds. I've been looking for one for my patio for months and finally found it. Huge sale right now, click the orange cart below before they sell out."
+> "My grandma kept skipping our family bonfires because her old patio chair was killing her back. Got her this Adirondack chair — folds for storage, real acacia wood, holds four hundred pounds. She sits out there for hours now. Huge sale right now, click the orange cart below."
 
 ---
 

@@ -36,7 +36,8 @@ This repo is designed to be read **cold** by any LLM agent (Claude, GPT, Gemini,
   ├── 01-tof-mof-bof.md
   ├── 02-hook-frameworks.md
   ├── 03-compliance.md
-  └── 04-examples.md
+  ├── 04-examples.md
+  └── 05-storytelling-and-psychology.md   ← MANDATORY: every script needs a story
 05-realism-protocol.md             ← Why generated UGC looks fake + how to fix
 06-failure-modes.md                ← Every mistake we've made
 07-pipeline.md                     ← Full image → video → publish pipeline

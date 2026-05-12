@@ -77,7 +77,9 @@ The user controls the spend. You propose, they approve.
 7. Writing scripts with medical/health/legal claims
 8. Repeating dialogue in a 15s video (cause: script too short for the duration)
 9. Showing a second person in frame when faceless POV is required
-10. Forgetting to spell ORANGE phonetically in voice cue (Kling will mispronounce it)
+10. **Spelling words phonetically in dialogue (e.g. OR-anj) — Kling reads dashes literally**
+11. **Writing scripts without a mini-story tied to a trigger person and pain — see `04-scripts/05-storytelling-and-psychology.md`**
+12. **Describing parts of the product that aren't visible in the reference image**
 
 ---
 
