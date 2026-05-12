@@ -191,6 +191,43 @@ The "I" or "you" replaces the trigger person. Still tells a story, just first-pe
 
 ---
 
+## Is "my grandma" a violation? (clarification)
+
+**Short answer: No.** Trigger person framing is standard UGC convention and not a violation.
+
+**What TikTok / FTC actually care about (the real line):**
+
+| Saying this | Safe? | Why |
+|---|---|---|
+| "My grandma had trouble walking long distances" | ✅ Safe | Generic limitation, no medical claim |
+| "I got my mom this for her birthday" | ✅ Safe | Gift framing, normal storytelling |
+| "My dad's back gives him hell at work" | ✅ Safe | Sensory complaint, no medical claim |
+| "She's way more comfortable now" | ✅ Safe | Behavioral outcome |
+| "My grandma was prescribed this by her doctor" | 🔴 Risk | Medical authority claim |
+| "My grandma's arthritis is gone since using this" | 🔴 Risk | Specific medical outcome |
+| "Her doctor couldn't help but this did" | 🔴 Risk | Disparages healthcare |
+| "She lost 15 pounds with this" | 🔴 Risk | Specific health outcome |
+
+**The line is in the CLAIM, not the CHARACTER.** Trigger person stories are illustrative narrative. The AI label communicates that AI-generated content isn't claiming to be literal documentary footage. Every UGC creator does this — it's puffery / illustrative storytelling, which the FTC and TikTok both accept.
+
+**Safe ingredients to combine freely:**
+- Trigger person (grandma, mom, dad, sister, friend, cousin) ✅
+- Generic limitation (trouble walking, back pain at work, no space, etc.) ✅
+- Sensory outcome (more comfortable, loves it, sits there for hours) ✅
+- Behavioral outcome (uses it daily, asks for it again, hosts now) ✅
+
+**Forbidden ingredients (regardless of who you attribute them to):**
+- Specific medical conditions ❌
+- Cures, treatments, or healing claims ❌
+- Specific weight loss numbers ❌
+- Healthcare disparagement ❌
+- Made-up testimonials with fake quotes/ratings ❌
+
+**Required when using AI:**
+- AI label toggled ON for every AI-generated video
+
+---
+
 ## Story length budget (15s TOF script ~42 words)
 
 - **Hook + story setup:** 12-15 words (~4-5 sec)

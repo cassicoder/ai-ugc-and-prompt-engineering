@@ -154,3 +154,23 @@ Not OK: "Indistinguishable from real X."
 
 OK: "Makes my [thing] feel [sensory adjective]."
 Not OK: "Makes my [thing] [measurable improvement]."
+
+---
+
+## Trigger person framing in AI UGC
+
+Stories that mention a person ("my grandma," "my mom," "my friend") are NOT a violation. They are standard UGC convention and considered illustrative storytelling / puffery — accepted by FTC and TikTok.
+
+**Safe:**
+- "My grandma had trouble walking long distances..." ✅
+- "I got my mom this for her birthday..." ✅
+- "My sister's tiny apartment was driving her crazy..." ✅
+
+**Unsafe (regardless of who you attribute it to):**
+- "My grandma was prescribed this by her doctor..." 🔴 (medical authority claim)
+- "Her arthritis is gone since using this..." 🔴 (specific medical outcome)
+- "She lost 20 pounds with this..." 🔴 (specific health outcome)
+
+The character is fine. The CLAIM is what gets flagged. Stick to sensory and behavioral outcomes (comfort, frequency of use, social behaviors) — those are universally safe.
+
+**AI label requirement:** When using AI-generated video with story framing, the AI label must be toggled ON. This handles the disclosure obligation. The viewer understands the story is illustrative, not a documentary of a real person.
